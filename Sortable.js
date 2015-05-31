@@ -1011,6 +1011,10 @@
 
 			evt.to = toEl;
 			evt.from = fromEl;
+			//zhongqf: add more element used in drag
+			evt.ghost = ghostEl;
+			evt.clone = cloneEl;
+			//zhongqf: end
 			evt.dragged = dragEl;
 			evt.draggedRect = dragRect;
 			evt.related = targetEl || toEl;
